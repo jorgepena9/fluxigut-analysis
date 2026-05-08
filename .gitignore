@@ -1,12 +1,13 @@
- # R
+# R
 .Rhistory
 .RData
 .Rproj.user/
 *.Rproj
 
-# Rmd cache and intermediate files
+# Rmd cache
 *_cache/
-*_files/
+
+# HTML (rendered locally, not needed on GitHub)
 *.html
 
 # macOS
