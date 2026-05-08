@@ -35,7 +35,6 @@ Raw 16S rRNA amplicon sequencing data (V4 region, 515F/806R, Illumina NextSeq 20
 
 The notebook `code/Fluxigut_qiime2_processing.ipynb` documents the full preprocessing pipeline from raw reads to the feature table and taxonomy files in `data/sequencing/`. 
 
-### R analysis
-
-The Rmd `code/Fluxigut_analysis.Rmd` runs the full downstream analysis and produces all figures in the manuscript. 
-
+## R analysis
+`Fluxigut_analysis.Rmd` runs the full downstream analysis and produces all figures. 
+The rendered version with figures is available as `Fluxigut_analysis.md`.
