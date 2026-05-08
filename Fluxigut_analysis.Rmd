@@ -60,7 +60,7 @@ treatment_levels <- c("Vehicle", "Flutamide", "Fluazinam", "Pretomanid",
 Fluxigut_metadata <- read_csv("data/metadata/Fluxigut_metadata_clean.csv")
 
 # Feature table
-features <- read_tsv("data/sequencing/feature-table.tsv", skip = 1) %>%
+features <- read_tsv("data/sequencing/feature-table.tsv.gz", skip = 1) %>%
   column_to_rownames("#OTU ID") %>%
   select(any_of(Fluxigut_metadata$sample_id))
 
