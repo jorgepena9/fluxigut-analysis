@@ -1,0 +1,17 @@
+ # R
+.Rhistory
+.RData
+.Rproj.user/
+*.Rproj
+
+# Rmd cache and intermediate files
+*_cache/
+*_files/
+*.html
+
+# macOS
+.DS_Store
+
+# QIIME2 artifacts (large — not for GitHub)
+*.qza
+*.qzv
